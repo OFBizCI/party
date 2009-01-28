@@ -17,7 +17,7 @@
  * under the License.
  */
 
-import org.ofbiz.party.party.PartyWorker;
+import org.ofbiz.common.geo.GeoWorker;
 
 partyId = parameters.partyId ?: parameters.party_id;
 userLoginId = parameters.userlogin_id ?: parameters.userLoginId;
@@ -30,7 +30,7 @@ if (!partyId && userLoginId) {
 }
 context.partyId = partyId; 
 
-latestGeoPoint = PartyWorker.findPartyLatestGeoPoint(partyId, delegator);
+latestGeoPoint = GeoWorker.findLatestGeoPoint(delegator, "PartyAndGeoPoint", "partyId", partyId, null, null);
 context.latestGeoPoint = latestGeoPoint;
 
 if (latestGeoPoint) {
