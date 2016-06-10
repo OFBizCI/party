@@ -953,7 +953,7 @@ under the License.
     </simple-method>
 
     <simple-method method-name="createUpdatePerson" short-description="Create and update a person" login-required="false">
-        <call-map-processor xml-resource="component://party/script/org/ofbiz/party/party/PartyMapProcs.xml"
+        <call-map-processor xml-resource="component://party/minilang/party/PartyMapProcs.xml"
                 processor-name="person" in-map-name="parameters" out-map-name="personMap"/>
         <check-errors/>
         <set field="partyId" from-field="parameters.partyId"/>
@@ -973,9 +973,9 @@ under the License.
     </simple-method>
 
     <simple-method method-name="quickCreateCustomer" short-description="Create customer profile on basis of First Name ,Last Name and Email Address" login-required="false">
-        <call-map-processor xml-resource="component://party/script/org/ofbiz/party/contact/PartyContactMechMapProcs.xml"
+        <call-map-processor xml-resource="component://party/minilang/contact/PartyContactMechMapProcs.xml"
                 processor-name="person" in-map-name="parameters" out-map-name="personInMap"/>
-        <call-map-processor xml-resource="component://party/script/org/ofbiz/party/contact/PartyContactMechMapProcs.xml"
+        <call-map-processor xml-resource="component://party/minilang/contact/PartyContactMechMapProcs.xml"
                 processor-name="emailAddress" in-map-name="parameters" out-map-name="emailAddressInMap"/>
         <check-errors/>
         

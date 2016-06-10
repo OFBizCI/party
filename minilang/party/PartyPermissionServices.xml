@@ -26,7 +26,7 @@ under the License.
     <!-- Returns hasPermission=true if user has one of the base PARTYMGR CRUD+ADMIN permissions -->
     <simple-method method-name="basePermissionCheck" short-description="Party Manager base permission logic">
         <set field="primaryPermission" value="PARTYMGR"/>
-        <call-simple-method method-name="genericBasePermissionCheck" xml-resource="component://common/script/org/ofbiz/common/permission/CommonPermissionServices.xml"/>
+        <call-simple-method method-name="genericBasePermissionCheck" xml-resource="component://common/minilang/permission/CommonPermissionServices.xml"/>
     </simple-method>
 
     <!-- Returns hasPermission=true if userLogin partyId equals partyId parameter -->
