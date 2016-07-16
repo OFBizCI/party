@@ -17,8 +17,8 @@
  * under the License.
  *******************************************************************************/
 
-package org.ofbiz.party.communication;
-import org.ofbiz.base.util.GeneralException;
+package org.apache.ofbiz.party.communication;
+import org.apache.ofbiz.base.util.GeneralException;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -45,30 +45,30 @@ import javax.mail.internet.InternetAddress;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.ofbiz.base.location.FlexibleLocation;
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.base.util.StringUtil;
-import org.ofbiz.base.util.UtilDateTime;
-import org.ofbiz.base.util.UtilHttp;
-import org.ofbiz.base.util.UtilMisc;
-import org.ofbiz.base.util.UtilProperties;
-import org.ofbiz.base.util.UtilValidate;
-import org.ofbiz.common.email.NotificationServices;
-import org.ofbiz.content.data.DataResourceWorker;
-import org.ofbiz.entity.Delegator;
-import org.ofbiz.entity.GenericEntityException;
-import org.ofbiz.entity.GenericValue;
-import org.ofbiz.entity.condition.EntityCondition;
-import org.ofbiz.entity.condition.EntityOperator;
-import org.ofbiz.entity.util.EntityListIterator;
-import org.ofbiz.entity.util.EntityQuery;
-import org.ofbiz.entity.util.EntityUtil;
-import org.ofbiz.entity.util.EntityUtilProperties;
-import org.ofbiz.service.DispatchContext;
-import org.ofbiz.service.GenericServiceException;
-import org.ofbiz.service.LocalDispatcher;
-import org.ofbiz.service.ServiceUtil;
-import org.ofbiz.service.mail.MimeMessageWrapper;
+import org.apache.ofbiz.base.location.FlexibleLocation;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.util.StringUtil;
+import org.apache.ofbiz.base.util.UtilDateTime;
+import org.apache.ofbiz.base.util.UtilHttp;
+import org.apache.ofbiz.base.util.UtilMisc;
+import org.apache.ofbiz.base.util.UtilProperties;
+import org.apache.ofbiz.base.util.UtilValidate;
+import org.apache.ofbiz.common.email.NotificationServices;
+import org.apache.ofbiz.content.data.DataResourceWorker;
+import org.apache.ofbiz.entity.Delegator;
+import org.apache.ofbiz.entity.GenericEntityException;
+import org.apache.ofbiz.entity.GenericValue;
+import org.apache.ofbiz.entity.condition.EntityCondition;
+import org.apache.ofbiz.entity.condition.EntityOperator;
+import org.apache.ofbiz.entity.util.EntityListIterator;
+import org.apache.ofbiz.entity.util.EntityQuery;
+import org.apache.ofbiz.entity.util.EntityUtil;
+import org.apache.ofbiz.entity.util.EntityUtilProperties;
+import org.apache.ofbiz.service.DispatchContext;
+import org.apache.ofbiz.service.GenericServiceException;
+import org.apache.ofbiz.service.LocalDispatcher;
+import org.apache.ofbiz.service.ServiceUtil;
+import org.apache.ofbiz.service.mail.MimeMessageWrapper;
 
 public class CommunicationEventServices {
 

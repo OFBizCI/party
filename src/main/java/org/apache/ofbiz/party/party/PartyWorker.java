@@ -17,7 +17,7 @@
  * under the License.
  */
 
-package org.ofbiz.party.party;
+package org.apache.ofbiz.party.party;
 
 import java.sql.Timestamp;
 import java.util.HashMap;
@@ -28,22 +28,22 @@ import java.util.Map;
 
 import javax.servlet.ServletRequest;
 
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.base.util.GeneralException;
-import org.ofbiz.base.util.UtilFormatOut;
-import org.ofbiz.base.util.UtilMisc;
-import org.ofbiz.base.util.UtilValidate;
-import org.ofbiz.entity.Delegator;
-import org.ofbiz.entity.GenericEntityException;
-import org.ofbiz.entity.GenericValue;
-import org.ofbiz.entity.condition.EntityCondition;
-import org.ofbiz.entity.condition.EntityConditionList;
-import org.ofbiz.entity.condition.EntityExpr;
-import org.ofbiz.entity.condition.EntityFunction;
-import org.ofbiz.entity.condition.EntityOperator;
-import org.ofbiz.entity.model.ModelEntity;
-import org.ofbiz.entity.util.EntityQuery;
-import org.ofbiz.entity.util.EntityUtil;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.util.GeneralException;
+import org.apache.ofbiz.base.util.UtilFormatOut;
+import org.apache.ofbiz.base.util.UtilMisc;
+import org.apache.ofbiz.base.util.UtilValidate;
+import org.apache.ofbiz.entity.Delegator;
+import org.apache.ofbiz.entity.GenericEntityException;
+import org.apache.ofbiz.entity.GenericValue;
+import org.apache.ofbiz.entity.condition.EntityCondition;
+import org.apache.ofbiz.entity.condition.EntityConditionList;
+import org.apache.ofbiz.entity.condition.EntityExpr;
+import org.apache.ofbiz.entity.condition.EntityFunction;
+import org.apache.ofbiz.entity.condition.EntityOperator;
+import org.apache.ofbiz.entity.model.ModelEntity;
+import org.apache.ofbiz.entity.util.EntityQuery;
+import org.apache.ofbiz.entity.util.EntityUtil;
 
 /**
  * Worker methods for Party Information

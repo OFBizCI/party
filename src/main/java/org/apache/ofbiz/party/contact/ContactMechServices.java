@@ -17,7 +17,7 @@
  * under the License.
  *******************************************************************************/
 
-package org.ofbiz.party.contact;
+package org.apache.ofbiz.party.contact;
 
 import java.security.SecureRandom;
 import java.sql.Timestamp;
@@ -32,24 +32,24 @@ import java.util.List;
 import java.util.Map;
 import java.util.Locale;
 
-import org.ofbiz.base.crypto.HashCrypt;
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.base.util.UtilGenerics;
-import org.ofbiz.base.util.UtilDateTime;
-import org.ofbiz.base.util.UtilMisc;
-import org.ofbiz.base.util.UtilProperties;
-import org.ofbiz.base.util.UtilValidate;
-import org.ofbiz.entity.Delegator;
-import org.ofbiz.entity.GenericEntityException;
-import org.ofbiz.entity.GenericValue;
-import org.ofbiz.entity.util.EntityQuery;
-import org.ofbiz.entity.util.EntityUtilProperties;
-import org.ofbiz.security.Security;
-import org.ofbiz.service.DispatchContext;
-import org.ofbiz.service.ModelService;
-import org.ofbiz.service.ServiceUtil;
-import org.ofbiz.service.LocalDispatcher;
-import org.ofbiz.service.GenericServiceException;
+import org.apache.ofbiz.base.crypto.HashCrypt;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.util.UtilGenerics;
+import org.apache.ofbiz.base.util.UtilDateTime;
+import org.apache.ofbiz.base.util.UtilMisc;
+import org.apache.ofbiz.base.util.UtilProperties;
+import org.apache.ofbiz.base.util.UtilValidate;
+import org.apache.ofbiz.entity.Delegator;
+import org.apache.ofbiz.entity.GenericEntityException;
+import org.apache.ofbiz.entity.GenericValue;
+import org.apache.ofbiz.entity.util.EntityQuery;
+import org.apache.ofbiz.entity.util.EntityUtilProperties;
+import org.apache.ofbiz.security.Security;
+import org.apache.ofbiz.service.DispatchContext;
+import org.apache.ofbiz.service.ModelService;
+import org.apache.ofbiz.service.ServiceUtil;
+import org.apache.ofbiz.service.LocalDispatcher;
+import org.apache.ofbiz.service.GenericServiceException;
 
 
 /**

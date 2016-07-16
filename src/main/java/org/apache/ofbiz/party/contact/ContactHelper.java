@@ -17,17 +17,17 @@
  * under the License.
  *******************************************************************************/
 
-package org.ofbiz.party.contact;
+package org.apache.ofbiz.party.contact;
 
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.base.util.UtilMisc;
-import org.ofbiz.entity.GenericEntityException;
-import org.ofbiz.entity.GenericValue;
-import org.ofbiz.entity.util.EntityUtil;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.util.UtilMisc;
+import org.apache.ofbiz.entity.GenericEntityException;
+import org.apache.ofbiz.entity.GenericValue;
+import org.apache.ofbiz.entity.util.EntityUtil;
 
 /**
  * Accessors for Contact Mechanisms

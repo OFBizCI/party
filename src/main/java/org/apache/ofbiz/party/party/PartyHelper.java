@@ -17,15 +17,15 @@
  * under the License.
  *******************************************************************************/
 
-package org.ofbiz.party.party;
+package org.apache.ofbiz.party.party;
 
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.base.util.UtilFormatOut;
-import org.ofbiz.entity.Delegator;
-import org.ofbiz.entity.GenericEntityException;
-import org.ofbiz.entity.GenericValue;
-import org.ofbiz.entity.model.ModelEntity;
-import org.ofbiz.entity.util.EntityQuery;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.util.UtilFormatOut;
+import org.apache.ofbiz.entity.Delegator;
+import org.apache.ofbiz.entity.GenericEntityException;
+import org.apache.ofbiz.entity.GenericValue;
+import org.apache.ofbiz.entity.model.ModelEntity;
+import org.apache.ofbiz.entity.util.EntityQuery;
 
 /**
  * PartyHelper
